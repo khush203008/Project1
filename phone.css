@@ -1,0 +1,110 @@
+    #logo {
+        margin: -12px 0px;
+    }
+    
+    #navbar {
+        flex-direction: column;
+    }
+    
+    #navbar ul li a {
+        font-size: 10px;
+        padding: 0px 7px;
+    }
+    
+    #home {
+        height: 371px;
+        display: flex;
+        flex-direction: column;
+        padding: 14px;
+    }
+    
+    #home h1 {
+        color: aliceblue;
+    }
+    
+    #home::before {
+        height: 400px;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    
+    #home p {
+        font-size: 13px;
+    }
+    
+    #services {
+        position: absolute;
+        flex-direction: column;
+    }
+    
+    #services .box img {
+        height: 40px;
+        margin: auto;
+        display: block;
+    }
+    
+    #services.box {}
+    
+    .h-primary {
+        font-size: 18px;
+    }
+    
+    #client {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #client-section {
+        padding-top: 885px;
+        position: relative;
+        top: 200%;
+        width: 100%;
+        height: 125px;
+        justify-content: center;
+    }
+    
+    #client-section::before {
+        position: absolute;
+        /* height: 40px; */
+        height: 230px;
+    }
+    
+    #contact {
+        position: relative;
+        width: 100%;
+        padding-top: 21px;
+    }
+    
+    footer {
+        position: relative;
+        width: 92%;
+        padding: 15px;
+    }
+    
+    .h-secondary {
+        font-size: 15px;
+        padding: 12px;
+        font-family: cursive;
+    }
+    
+    .center {
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    #client img {
+        height: 30px;
+        margin: 5px;
+        padding: 0px;
+    }
+    
+    #contact-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 34px;
+    }
